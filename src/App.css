@@ -1,7 +1,8 @@
+/*앱 컴포넌트에만 적용되는 애가 아님*/
+/*각 컴포넌트에 특화된 애를 활용하려면 module붙이면돼*/
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +28,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
