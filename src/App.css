@@ -1,35 +1,9 @@
 /*앱 컴포넌트에만 적용되는 애가 아님*/
 /*각 컴포넌트에 특화된 애를 활용하려면 module붙이면돼*/
 .App {
+  width: 80%;
   text-align: center;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -37,4 +11,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+.homeB {
+  width: 230px;
+
+}
+.nav_center {
+  width: 100%;
+}
+.me-auto{
+  text-align: center;
+  display : flex;
+  justify-content : center;  /* 좌우정렬 */
+  width: 2304px;
+}
+.userB{
+  width: 140px;
+}
+.homeB{
+  width: 100px;
+}
+.photoB {
+  width: 100px;
+}
+.postB {
+  width: 100px;
+}
+.profile {
+  text-align: center;
+  display : flex;
+  justify-content : center;  /* 좌우정렬 */
+  height: 50vh;
+  width: 2304px;
+}
+.profileImage {
+  width: 50%;
+}
+.profileInfo {
+  width: 50%;
+}
+.introV{
+  justify-content: center;
+  height: 40vh;
+  width: 20vw;
 }
