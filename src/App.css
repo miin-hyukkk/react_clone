@@ -42,7 +42,7 @@
   display : flex;
   justify-content : center;  /* 좌우정렬 */
   height: 50vh;
-  width: 2304px;
+  width: 80vw;
 }
 .profileImage {
   width: 50%;
@@ -50,8 +50,9 @@
 .profileInfo {
   width: 50%;
 }
-.introV{
-  justify-content: center;
-  height: 40vh;
-  width: 20vw;
+.pImage{
+  height: 10vw;
+  width: 10vw;
+  margin : 10%;
+  border-radius: 50%;
 }
